@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Insure - Insurance HTML Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon" />
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Spinner Start -->
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-grow text-primary" role="status"></div>
+  </div>
+  <!-- Spinner End -->
+
+  <!-- Topbar Start -->
+  <div class="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block">
+    <div class="row gx-0 align-items-center">
+      <div class="col-lg-7 px-5 text-start">
+        <div class="h-100 d-inline-flex align-items-center me-4">
+          <small class="fa fa-phone-alt me-2"></small>
+          <small>+012 345 6789</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-center me-4">
+          <small class="far fa-envelope-open me-2"></small>
+          <small>info@example.com</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-center me-4">
+          <small class="far fa-clock me-2"></small>
+          <small>Mon - Fri : 09 AM - 09 PM</small>
+        </div>
+      </div>
+      <div class="col-lg-5 px-5 text-end">
+        <div class="h-100 d-inline-flex align-items-center">
+          <a class="text-white-50 ms-4" href=""><i class="fab fa-facebook-f"></i></a>
+          <a class="text-white-50 ms-4" href=""><i class="fab fa-twitter"></i></a>
+          <a class="text-white-50 ms-4" href=""><i class="fab fa-linkedin-in"></i></a>
+          <a class="text-white-50 ms-4" href=""><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Topbar End -->
+
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
+    <a href="index.html" class="navbar-brand d-flex align-items-center">
+      <h1 class="m-0">
+        <img class="img-fluid me-3" src="img/icon/icon-02-primary.png" alt="" />Insure
+      </h1>
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
+        <a href="index.html" class="nav-item nav-link">Home</a>
+        <a href="about.html" class="nav-item nav-link">About Us</a>
+        <a href="service.html" class="nav-item nav-link">Our Services</a>
+        <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+          <div class="dropdown-menu bg-light border-0 m-0">
+            <a href="feature.html" class="dropdown-item">Features</a>
+            <a href="appointment.html" class="dropdown-item">Appointment</a>
+            <a href="team.html" class="dropdown-item">Team Members</a>
+            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+            <a href="404.html" class="dropdown-item active">404 Page</a>
+          </div>
+        </div>
+        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+      </div>
+    </div>
+    <a href="" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Page Header Start -->
+  <!-- <div
+      class="container-fluid page-header py-5 mb-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <h1 class="display-4 animated slideInDown mb-4">404 Error</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              404 Error
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div> -->
+  <!-- Page Header End -->
+
+  <!-- 404 Start -->
+  <!-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <i class="bi bi-exclamation-triangle display-1 text-primary"></i>
+            <h1 class="display-1">404</h1>
+            <h1 class="mb-4">Page Not Found</h1>
+            <p class="mb-4">
+              We’re sorry, the page you have looked for does not exist in our
+              website! Maybe go to our home page or try to use a search?
+            </p>
+            <a class="btn btn-primary py-3 px-5" href="">Go Back To Home</a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  <!-- 404 End -->
+
+
+  <!-- travel insurance comparison start -->
+  <div class="top">
+    <div class="container-fluid me-lg-5 ms-lg-5" >
+      <div class="row">
+        <!-- <div class="col-lg-12"> -->
+          <div class="compare-plan d-lg-none">
+            <p class="fw-bold fs-4" >Compare Travel Insurance Plan</p>
+          </div>
+        <div class="col-lg-2  col-sm-6 top-content">
+          <p>Age</p>
+          <h5>55 yrs</h5>
+        </div>
+        <div class="col-lg-2  col-sm-6 top-content">
+          <p>Destination</p>
+          <h5>Europe</h5>
+
+        </div>
+        <div class="col-lg-2  col-sm-6 top-content">
+          <p>Coverage Limit</p>
+          <h5>51,000-100,000 (US$) </h5>
+        </div>
+        <div class="col-lg-2  col-sm-6 top-content">
+          <p>Coverage Period</p>
+          <h5>1 Days</h5>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 top-content">
+          <p>Pre-existing</p>
+          <h5>No<h5>
+        </div>
+    
+        <div class="col-lg-2 col-md-6 col-sm-4  col-4 edit">
+          <a class="btn" id="buttons"><i class="fa-regular fa-pen-to-square"></i>Edit Quote</a>
+        </div>
+        <div class="filter-box col-md-6 col-sm-4 col-4 d-lg-none d-md-block">
+          <a class="btn" href="" id="box"><i class="fa-solid fa-filter"></i>Filter Option</a>
+        </div>
+        <!-- </div> -->
+      </div>
+
+
+    </div>
+  </div>
+  <!-- check box popup container -->
+  <div class="popup">
+    <div class="popup-content">
+      <a href="">Compare Plans</a>
+      <div class="box">
+         <h6>Explore Europe</h6>
+        <p>Tata AIA</p>
+        <p class="price">Total: Rs.1,280.00</p> 
+        <i class="fa-solid fa-xmark" id="close"></i>
+      </div>
+    </div>
+    <!-- <i class="fa-solid fa-xmark" id="close-box"> </i> -->
+    <a href="" id="close-box">close</a>
+
+  </div>
+  <!-- check box popup container end -->
+
+  <!-- filter popup container start -->
+  <div id="mouse" class="d-lg-none">
+    <div id="filter-options" class="d-lg-none">
+
+      <h5>Filter Option</h5>
+      <i class="fa-solid fa-xmark" id="close-filter"></i>
+
+      <div class="select-box">
+        <select>
+          <option value="">Sort by price</option>
+          <option value="">Ascending Order</option>
+          <option value="">Descending Order</option>
+
+        </select>
+        <select name="" id="">
+          <option value="">Company</option>
+          <option value="">Bajaj Alianz</option>
+          <option value="">Bajaj Alianz</option>
+          <option value="">Bajaj Alianz</option>
+
+        </select>
+        <div class="filter-button ">
+          <a href="" class="reset-btn">Reset</a>
+          <a href="" class="apply-btn">Apply</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- quote popup -->
+  <div class="quote">
+    <div class="quote-box">
+      <h5>Quote Form</h5>
+      <i class="fa-solid fa-xmark" id="close-quote"></i>
+      <div class="boxes text-dark fw-bold fs-5">
+        <div class="row">
+          <!-- <form action="" id="form"> -->
+          <div class="col-md-6 col-sm-5 mt-3">
+            <label for="">Age</label><br>
+            <input type="text" placeholder="Age" class="input">
+          </div>
+
+          <div class="col-md-6 col-sm-5 mt-3">
+            <label for="">Destination</label><br>
+            <select name="" id="" class="select">
+              <option value="" class="option">Worldwide Including USA and Canada</option>
+              <option value="" class="option">Worldwide Including USA and Canada</option>
+              <option value="" class="option">Worldwide Including USA and Canada</option>
+              <option value="" class="option">Worldwide Including USA and Canada</option>
+              <option value="" class="option">Worldwide Including USA and Canada</option>
+
+            </select>
+          </div>
+
+          <div class="col-md-6 col-sm-5 mt-3">
+            <label for="">Coverage Limit</label><br>
+            <select name="" id="" class="select">
+              <option value="">$50,000</option>
+              <option value="">$60,000</option>
+              <option value="">$70,000</option>
+              <option value="">$80,000</option>
+
+            </select>
+          </div>
+          <div class="col-md-6 col-sm-5 mt-3">
+            <label for="">Start Date</label><br>
+            <input type="date">
+          </div>
+          <div class="col-md-6 col-sm-5 mt-3">
+            <label for="">End Date</label><br>
+            <input type="date">
+          </div>
+          <div class="col-md-8 col-sm-8 mt-3">
+            <label for="">Pre-existing</label><br>
+            <input type="radio" name="choice">No
+            <input type="radio" name="choice">Yes
+          </div>
+
+
+
+          <a href="">Update Quote</a>
+
+          <!-- </form> -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- quote popup end -->
+  <div class="filter pe-lg-5 ps-lg-5 pt-lg-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2  col-md-4">
+          <div class="row">
+            <div class="col-lg-8 col-md-6 filter-box">
+              <h2>Filter</h2>
+              <div class="first-drop">
+
+                <div class="inner-drop">
+                  <span class="btn-text">Sort By Price</span>
+                  <span class="arrow-dwn">
+                    <i class="fa-solid fa-plus" id="drop-plus"></i>
+                    <i class="fa-solid fa-minus" id="drop-minus"></i>
+
+                  </span>
+                </div>
+                <ul class="drop-list">
+                  <li class="drop-item">Ascending Order</li>
+                  <li class="drop-item">Descending Order</li>
+                </ul>
+              </div>
+             <div class="select">
+
+                <div class="drop-btn">
+                  <span class="btn-text">Company</span>
+                  <span class="arrow-dwn">
+                    <i class="fa-solid fa-plus" id="plus"></i>
+                    <i class="fa-solid fa-minus" id="minus"></i>
+
+                  </span>
+                </div>
+
+                <ul class="list-items">
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="img">
+                      <img src="img/ins-1.jpg" alt="">
+                    </span>
+                    <span class="item-text">
+                      Star Health
+                    </span>
+                  </li>
+
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="img">
+                      <img src="img/ins-1.jpg" alt="">
+                    </span>
+                    <span class="item-text">
+                      Star Health
+                    </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="img">
+                      <img src="img/ins-1.jpg" alt="">
+                    </span>
+                    <span class="item-text">
+                      Star Health
+                    </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="img">
+                      <img src="img/ins-1.jpg" alt="">
+                    </span>
+                    <span class="item-text">
+                      Star Health
+                    </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="img">
+                      <img src="img/ins-1.jpg" alt="">
+                    </span>
+                    <span class="item-text">
+                      Star Health
+                    </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="img">
+                      <img src="img/ins-1.jpg" alt="">
+                    </span>
+                    <span class="item-text">
+                      Star Health
+                    </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="img">
+                      <img src="img/ins-1.jpg" alt="">
+                    </span>
+                    <span class="item-text">
+                      Star Health
+                    </span>
+                  </li>
+                </ul>
+
+                
+
+            </div>
+            <div class="col-lg-10">
+            <div class="btn">
+              <div class="col-lg-12">
+                <a href="" class="reset">Reset</a>
+              </div>
+              <div class="col-lg-12">
+                <a href="" class="apply">Apply</a>
+              </div>
+            </div>
+          </div>
+          </div> 
+
+
+
+          </div>
+
+        </div>
+        <div class="col-lg-10 col-md-12 box-center">
+          <!-- <div class="planrows "> -->
+          <!-- <div class="col-md-12 col-sm-12"> -->
+          <div class="center">
+            <!-- <div class="planrows "> -->
+            <div class="row">
+              <div class=" plans col-lg-4 col-md-4">
+                <div class="planrows ">
+                  <!-- <div class=" plans col-lg-4 col-md-4"> -->
+
+                  <img src="img/ins-8.jpg" alt="" class="img-fluid">
+                  <p>Siver Plan</p>
+                </div>
+                <p>No. of Lives Covered*: <span>8,27,689</span></p>
+                <p>Claims Settlement Ratio*: <span>66.59%</span> </p>
+              </div>
+              <!-- </div> -->
+              <div class=" features col-lg-6 col-md-6 equal-height-column">
+                <div class="col-md-12">
+                  <div class="feature">
+                    <h6>Common Features</h6>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <p>1) Accident & Sickness medical expenses : $100,000</p>
+                        <p class="para">2) Covers pre-existing medical conditions under life threatening situations :
+                          $1,500</p>
+                        <p>3) Trip Cancellation : Up to $500</p>
+                        <div class="links">
+                          <a href="">Brochure</a>
+                          <a href="">Details</a>
+                          <a href="">Know More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-lg-2 col-md-2 input-box">
+                <div class="row">
+
+                  <div class="input-section .col-md-12 ">
+                    <p>Policy Max?: <span> $100,000</span></p>
+
+                    <a href="">Buy Rs.1,280</a><br><br>
+
+                    <!-- <a href="">Buy Rs.1,280</a><br><br> -->
+                    <div class="checkbox col-lg-12 col-md-12 col.sm-12">
+                      <input type="checkbox" class="input" id="check">
+                      <label for="">Add to compare</label>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+              <!-- </div> -->
+
+            </div>
+          </div>
+          <!-- ...... -->
+
+          <div class="center">
+
+            <div class="row">
+              <div class=" plans col-lg-4 col-md-4">
+                <div class="planrows ">
+                  <!-- <div class=" plans col-lg-4 col-md-4"> -->
+
+                  <img src="img/ins-8.jpg" alt="">
+                  <p>Travel Elite Silver Plan</p>
+                </div>
+                <p>No. of Lives Covered*: <span>6,54,583</span></p>
+                <p>Claims Settlement Ratio*: <span>88.43%</span> </p>
+              </div>
+              <!-- </div> -->
+              <div class=" features col-lg-6 col-md-6 equal-height-column">
+                <div class="col-md-12">
+                  <div class="feature">
+                    <h6>Common Features</h6>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <p>1) Accident & Sickness Expenses Deductible: $100</p>
+                        <p class="para">2) Personal Accident Coverage: $15,000 </p>
+                        <p>3)Passport Loss Benefit: Up to $250</p>
+                        <div class="links">
+                          <a href="">Brochure</a>
+                          <a href="">Details</a>
+                          <a href="">Know More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+              <div class="col-lg-2 col-md-2 input-box">
+                <div class="row">
+
+                  <div class="input-section .col-md-12 ">
+                    <p>Policy Max?: <span> $50,000</span></p>
+
+                    <a href="">Buy Rs.918</a><br><br>
+
+                    <!-- <a href="">Buy Rs.1,280</a><br><br> -->
+                    <div class="checkbox col-lg-12 col-md-12 col.sm-12">
+                      <input type="checkbox" class="input" id="check">
+                      <label for="">Add to compare</label>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="center">
+
+            <div class="row">
+              <div class=" plans col-lg-4 col-md-4">
+                <div class="planrows ">
+                  <!-- <div class=" plans col-lg-4 col-md-4"> -->
+
+                  <img src="img/ins-8.jpg" alt="">
+                  <p>Travel Companion Care Plan
+                </div>
+                <p>No. of Lives Covered*: <span>6,54,583</span></p>
+                <p>Claims Settlement Ratio*: <span>88.43%</span> </p>
+              </div>
+              <!-- </div> -->
+              <div class=" features col-lg-6 col-md-6 equal-height-column">
+                <div class="col-md-12">
+                  <div class="feature">
+                    <h6>Common Features</h6>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <p>1) Accident & Sickness medical expenses : $100</p>
+                        <p class="para">2) Personal Accident Coverage: $10,000</p>
+                        <p>3) Passport Loss Benefit: $250</p>
+                        <div class="links">
+                          <a href="">Brochure</a>
+                          <a href="">Details</a>
+                          <a href="">Know More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+              <div class="col-lg-2 col-md-2 input-box">
+                <div class="row">
+
+                  <div class="input-section .col-md-12 ">
+                    <p>Policy Max?: <span> $50,000</span></p>
+
+                    <a href="">Buy Rs.798</a><br><br>
+
+                    <!-- <a href="">Buy Rs.1,280</a><br><br> -->
+                    <div class="checkbox col-lg-12 col-md-12 col.sm-12">
+                      <input type="checkbox" class="input" id="check">
+                      <label for="">Add to compare</label>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--<div class="filter">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- <div class="col-lg-2 col-md-4">
+          <div class="row">
+            <div class="col-lg-8 col-md-6 filter-box">
+              <h2>Filter</h2>
+              <form action="">
+                <select name="fieldname">
+                  <option value="option1">Sort By Price</option>
+                  <option value="option2"><a href="">Ascending Order</a></option>
+                  <option value="option2"><a href="">Descending Order</a></option>
+
+                </select>
+                <br>
+                <select name="select">
+                  <option value="option1">One</option>
+                  <option value="option2"><a href="">Ascending Order</a></option>
+                  <option value="option2"><a href="">Descending Order</a></option>
+
+                </select>
+
+
+                <div class="btn">
+                  <div class="col-lg-12">
+                    <a href="" class="reset">Reset</a>
+                  </div>
+                  <div class="col-lg-12">
+                    <a href="" class="apply">Apply</a>
+                  </div>
+                </div>
+
+              </form>
+
+            </div>
+
+
+
+          </div> -->
+
+  <!--</div>
+        <div class="col-lg-10 col-md-12 box-center">
+          <!-- <div class="planrows "> -->
+  <!-- <div class="col-md-12 col-sm-12"> -->
+  <!--<div class="center">
+            <div class="planrows "> 
+            <div class="row">
+              <div class=" plans col-lg-4 col-md-4">
+                <div class="planrows ">
+                  <div class=" plans col-lg-4 col-md-4">
+
+                  <img src="img/ins-8.jpg" alt="">
+                  <p>Explore Europe 100,000 Euros</p>
+                </div>
+                <p>No. of Lives Covered*: <span>8,27,689</span></p>
+                <p>Claims Settlement Ratio*: <span>66.59%</span> </p>
+              </div>
+               </div> 
+              <div class=" features col-lg-6 col-md-6 equal-height-column">
+                <div class="col-md-12">
+                  <div class="feature">
+                    <h6>Common Features</h6>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <p>1) Accident & Sickness medical expenses : $100,000</p>
+                        <p class="para">2) Covers pre-existing medical conditions under life threatening situations :
+                          $1,500</p>
+                        <p>3) Trip Cancellation : Up to $500</p>
+                        <div class="links">
+                          <a href="">Brochure</a>
+                          <a href="">Details</a>
+                          <a href="">Know More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-lg-2 col-md-2 input-box">
+                <div class="row">
+
+                  <div class="input-section .col-md-12 ">
+                    <p>Policy Max?: <span> $100,000</span></p>
+
+                    <a href="">Buy Rs.1,280</a><br><br>
+
+                     <a href="">Buy Rs.1,280</a><br><br>
+                    <div class="checkbox col-lg-12 col-md-12 col.sm-12">
+                      <input type="checkbox" class="input" id="check">
+                      <label for="">Add to compare</label>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+               </div> 
+            </div>
+
+          </div>
+           <div class="col-lg-2 col-md-12">
+          <div class="input-section">
+          <p>Policy Max?: <span> $100,000</span></p>
+          <a href="">Buy Rs.1,280</a><br>
+          <input type="checkbox">Add to compare
+        </div> -->
+  <!-- </div>
+      </div>
+    </div>
+  </div>
+  </div>-->
+
+
+  <!-- ..... -->
+  <!--<div class="container">
+  <div class="row">
+    <div class="col-lg-2 col-md-12">
+      <div class="col-lg-12 col-md-12">
+
+      </div>
+    </div>
+  
+
+
+   <div class="col-lg-10 col-md-12"> 
+   <div class="planrow">
+          <div class="col-md-12 col-sm-12 col-12">
+            <div class="col-md-4">
+              <img src="img/ins-8.jpg" alt="">
+                  <p>Explore Europe 100,000 Euros</p>
+                </div>
+                <p>No. of Lives Covered*: <span>8,27,689</span></p>
+                <p>Claims Settlement Ratio*: <span>66.59%</span> </p>
+            </div>
+            <div class="col-md-6">
+              <div class="col-md-12">
+                <div>Common Feature</div>
+                <div>
+                  "1)  Accident & Sickness medical expenses : $50,000" <br>
+                  "2) Covers pre-existing medical conditions under life threatening situations : $1,500" <br>
+                  "3) Trip Cancellation : Up to $500"
+                </div>
+                <div class="col-md-12 col-sm-12 col-12">
+                  <span><a href="">Brochure</a></span>
+                  <span><a href="">Details</a></span>
+                  <span><a href="">Know More</a></span>
+                </div>
+
+                <div class="col-md-2 col-12">
+                  <div class="col-lg-12 col-md-12">
+                    <p>Policy Max? : <span>$50,000</span> </p>
+                  </div> -->
+  <!--<div class="col-md-12 col-4">
+                    <div class="col-md-12">
+                      <a href="">Buy Rs 1,097</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-6 col-5">
+                    <input type="checkbox" name="" id="">
+                    <label for="">Add to Compare</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div> 
+    </div>-->
+  <!-- </div> -->
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h1 class="text-white mb-4">
+            <img class="img-fluid me-3" src="img/icon/icon-02-light.png" alt="" />Insure
+          </h1>
+          <p>
+            Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
+            ipsum et lorem et sit, sed stet lorem sit clita
+          </p>
+          <div class="d-flex pt-2">
+            <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Address</h5>
+          <p>
+            <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
+          </p>
+          <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+          <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Quick Links</h5>
+          <a class="btn btn-link" href="">About Us</a>
+          <a class="btn btn-link" href="">Contact Us</a>
+          <a class="btn btn-link" href="">Our Services</a>
+          <a class="btn btn-link" href="">Terms & Condition</a>
+          <a class="btn btn-link" href="">Support</a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Newsletter</h5>
+          <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+          <div class="position-relative mx-auto" style="max-width: 400px">
+            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email" />
+            <button type="button" class="btn btn-secondary py-2 position-absolute top-0 end-0 mt-2 me-2">
+              SignUp
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+            Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+            <br />Distributed By:
+            <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script>
+    // document.querySelector("#check").addEventListener("click", function () {
+    //   let popup = document.querySelector(".popup");
+    //   // document.querySelector(".popup").style.display = "block";
+    //   if (popup.style.display == "block") {
+    //     popup.style.display = "none"
+    //   }
+    //   else {
+    //     popup.style.display = "block";
+    //   }
+    // })
+    let check = document.querySelectorAll("#check");
+    let popup = document.querySelector(".popup");
+    check.forEach((e) => {
+      e.addEventListener("click", function () {
+        if (popup.style.display == "block") {
+          popup.style.display = "none";
+        } else {
+          popup.style.display = "block";
+
+        }
+      })
+    })
+
+  //   let div = document.createElement("div");
+  //  let textnode =  document.createTextNode("Silver Plan");
+  //     div.appendChild(textnode);
+  //  let boxdiv =  document.querySelector(".box");
+  //     boxdiv.appendChild(div);
+
+    document.querySelector("#close-box").addEventListener("click", function () {
+      document.querySelector(".popup").style.display = "none";
+    })
+
+    document.querySelector("#close").addEventListener("click", function () {
+      document.querySelector(".box").style.display = "none";
+    })
+
+    document.querySelector("#box").addEventListener("click", function () {
+      document.querySelector("#mouse").style.display = "flex";
+    })
+
+    document.querySelector("#buttons").addEventListener("click", function () {
+      document.querySelector(".quote").style.display = "flex";
+    })
+
+    document.querySelector("#close-quote").addEventListener("click", function () {
+      document.querySelector(".quote").style.display = "none";
+    })
+
+    document.querySelector("#close-filter").addEventListener("click", function () {
+      document.querySelector("#mouse").style.display = "none";
+    })
+
+    const selectbtn = document.querySelector(".drop-btn");
+    const items = document.querySelectorAll(".item");
+    selectbtn.addEventListener("click", () => {
+      selectbtn.classList.toggle("open");
+    })
+    items.forEach(item =>{
+      item.addEventListener("click", ()=>{
+        item.classList.toggle("checked");
+      })
+    })
+
+    const innerdrop = document.querySelector(".inner-drop");
+    const dropitems = document.querySelectorAll(".drop-item");
+    innerdrop.addEventListener("click", () =>{
+      innerdrop.classList.toggle("open");
+    })
+
+
+
+  </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

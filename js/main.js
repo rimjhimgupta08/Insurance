@@ -1,3 +1,7 @@
+// const {
+//    checkboxdata  
+// }= require('./data')
+// console.log(checkboxdata,"hhhhhhhhhhhhhhh", checkboxdata);
 (function ($) {
     "use strict";
 
@@ -64,12 +68,12 @@
     
 })(jQuery);
 
-let closebtn = document.querySelector("#close");
-let box = document.querySelector(".box");
-closebtn.addEventListener("click" , function(){
-    box.style.display = "block";
+// let closebtn = document.querySelector("#close");
+// let box = document.querySelector(".box");
+// closebtn.addEventListener("click" , function(){
+//     box.style.display = "block";
 
-})
+// })
 
 
 // let btn = document.querySelector(".btn");

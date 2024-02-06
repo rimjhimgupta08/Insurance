@@ -124,13 +124,14 @@ body{
 }
 .top p{
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  margin-top: 10px;
 }
 .top .btn{
   padding: 10px 20px;
   color: white;
   background-color: #015fc9;
-  margin-top: 5px;
+  margin-top: 10px;
   
 }
 .top .btn i{
@@ -139,11 +140,12 @@ body{
   font-size: 1.3rem;
 }
 .top h5{
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .filter{
   background-color:#f6f7fc;
   width: 100%;
+  /* height: 100vh; */
   /* padding: 10px 100px; */
 }
 .filter .btn{
@@ -164,17 +166,23 @@ body{
   background-color: #ebecee;
 }
 .filter .btn .apply{
-  background-color:#0dd3f1;
+  background-color:#015fc9;
   padding: 10px 40px;
   color: white;
   position: absolute;
+  margin-left: 10px;
 
   /* margin-left:20px; */
 
 }
 .filter .btn .apply:hover{
-  background-color:#086e7d;
+  background-color:#0550a6;
 
+}
+.filters{
+  width: 100%;
+  background-color: #f6f7fc;
+  padding-bottom: 40px;
 }
 .filter .center{
   background-color: white;
@@ -183,6 +191,10 @@ body{
   /* margin-top: 30px; */
   padding: 0px 10px;
   width: 100%;
+}
+.filter .container-fluid{
+  background-color:#f6f7fc;
+  height: 100%;
 }
 .filter .select{
   position: relative;
@@ -358,7 +370,7 @@ body{
 .filter .center .plans{
   border-right: 1px solid rgb(198, 197, 197);
 }
-.filter .center .feature .para{
+.filter .center .feature .para2{
   line-height: 20px;
 
 }
@@ -374,7 +386,34 @@ body{
   padding: 0px;
 
 }
+.filter .center .input-section #checkbox1{
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  border: 2px solid rgb(131, 127, 127);
+  border-radius: 5px;
+  margin-right: 12px;
+  margin-top: 7px;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 5px;
+  background-color: white;
+}
+.filter .center .input-section .checkbox.checked #checkbox1{
+  background-color: #0e5ebb;
+  border: none;
+}
+.filter .center .checkbox.checked #checkbox1 .check-icon{
+  color: white;
+  transform: scale(1);
 
+}
+.filter .center #checkbox1 .check-icon{
+  font-size: 17px;
+  transform: scale(0);
+  transition: all 0.3s ease-in-out;
+}
 .filter .center .input-section a{
   /* padding: 10px 20px; */
   background-color:forestgreen;
@@ -384,28 +423,50 @@ body{
   font-weight: 500;
   padding:  15px 10px;
 }
-.filter .center .input-section .checkbox{
-  margin-top: 20px;
-  background-color:#ced4da;
-  padding: 10px;
+.check-bottom{
+  /* height: 40px; */
+  padding: 1px 15px;
+  /* display: flex; */
+  justify-content: space-around;
+  background-color:#bebfc1;
   color: black;
-  
+  text-align: center;
 }
-.filter .center .input-section .checkbox .input{
+.filter .center .input-section .check-bottom .checkbox{
+  /* margin-top: 20px; */
+  background-color:#ced4da;
+  /* padding: 10px; */
+  color: black;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  /* margin-top: 20px; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.filter .center .input-section .check-bottom .checkbox{
+  /* background-color: #0e5ebb; */
+  accent-color:#015fc9 ;
+}
+.filter .center .input-section .check-bottom .checkbox.checked{
+  accent-color:none ;
+
+}
+/* .filter .center .input-section .checkbox .input{
   padding-right: 10px;
   padding-left: 10px;
-}
-.filter .center .input-section .input{ 
-  margin-right: 10px;
-}
+} */
+
 .filter .center .input-section p{
-  font-size: .8rem;
+  font-size: 1rem;
   color: #015fc9;
   margin-bottom: 40px;
   margin-top: 20px;
 
   
 }
+
 .filter .center .input-section p span{
   font-weight: 500;
   font-size: 1rem;
@@ -413,6 +474,9 @@ body{
 .filter .center .features{
   border-right: 1px solid rgb(198, 197, 197);
   
+}
+.filter .center p{
+  font-size: 1.1rem;
 }
 .filter .center .feature h6{
   margin-top: 10px;
@@ -423,6 +487,7 @@ body{
   line-height: 3px;
   /* gap: 3px; */
   padding-right: 10px;
+  font-size: 1.1rem;
 }
 .filter .center .feature .links a{
   margin-right: 20px;
@@ -437,22 +502,28 @@ body{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 100%;
+  margin-left: 10px;
 }
 .filter .center .planrows p{
   background-color:#ebecee;
   padding: 30px 20px;
   color: black;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 500;
   width: 100%;
-  margin-left: 10px;
+  margin-left: 20px;
+  /* margin-right: 0; */
 }
 .filter .center .planrows img{
   width: 70px;
   height: 50px;
 }
 
+/* **** */
 
+
+/* *** */
 /* popup section */
 .popup{
   background-color: #bfc0c8;
@@ -461,20 +532,34 @@ body{
   bottom: 0px;
   position: fixed;
   padding: 40px;
+  /* height: 500px; */
   /* justify-content: center; */
-  display: none;
+  /* display: none; */
   bottom: 20px;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  /* justify-content: space-around; */
   /* display: flex; */
   
   /* justify-content: center; */
   /* align-items: center; */
 }
+#boxContainer{
+  display: none;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+/* #boxContainer:not(:empty) {
+  display: block;
+} */
 .popup .popup-content{
   display: flex;
   position: relative;
 }
 .popup .popup-content a{
-  background-color:#015fc9;
+  background-color:#0550a6;
   height: 40px;
   padding: 10px 20px;
   color: white;
@@ -484,16 +569,17 @@ body{
   margin-top: 20px;
   border-radius: 5px ;
 }
-.popup .popup-content .box{
+.popup  .box, .box1, .box2, .box3, .box4{
   background-color: white;
   margin-left: 60px;
-  width: 400px;
+  width: 350px;
   text-align: center;
   line-height: 13px;
   padding: 20px;
   border-radius: 5px;
   position: relative;
   /* display: none; */
+  margin-bottom: 20px;
 }
 .popup #close-box{
   position: absolute;
@@ -505,18 +591,103 @@ body{
   cursor: pointer;
   text-decoration: underline;
 }
-.popup .popup-content .box #close{
+.box #close{
   position: absolute;
   right: 10px;
   color: rgb(47, 47, 47);
   top: 10px;
   font-size: 1.1rem;
 }
-.popup .popup-content .box p{
+.box1  #close1{
+  position: absolute;
+  right: 10px;
+  color: rgb(47, 47, 47);
+  top: 10px;
+  font-size: 1.1rem;
+}
+.box2  #close2{
+  position: absolute;
+  right: 10px;
+  color: rgb(47, 47, 47);
+  top: 10px;
+  font-size: 1.1rem;
+}
+.box3  #close3{
+  position: absolute;
+  right: 10px;
+  color: rgb(47, 47, 47);
+  top: 10px;
+  font-size: 1.1rem;
+}
+.box4  #close4{
+  position: absolute;
+  right: 10px;
+  color: rgb(47, 47, 47);
+  top: 10px;
+  font-size: 1.1rem;
+}
+
+
+.popup .popup-content .box  p{
   color: black;
   margin-top: 10px;
 }
-.popup .popup-content .box .price{
+.box p{
+  color: black;
+  font-size: 1.1rem;
+}
+.box1 p{
+  color: black;
+  font-size: 1.1rem;
+}
+.box2 p{
+  color: black;
+  font-size: 1.1rem;
+}
+.box3 p{
+  color: black;
+  font-size: 1.1rem;
+}
+.box4 p{
+  color: black;
+  font-size: 1.1rem;
+}
+.box h6{
+  font-size: 1.2rem;
+}
+.box1 h6{
+  font-size: 1.2rem;
+}
+.box2 h6{
+  font-size: 1.2rem;
+}
+.box3 h6{
+  font-size: 1.2rem;
+}
+.box4 h6{
+  font-size: 1.2rem;
+}
+.box .price{
+  color: green;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.box1 .price{
+  color: green;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.box2 .price{
+  color: green;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.box3 .price{
+  color: green;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.box4 .price{
   color: green;
   font-weight: 700;
   font-size: 1.1rem;
@@ -531,6 +702,7 @@ body{
   display: none;
   justify-content: center;
   align-items: center; 
+  z-index: 2;
   /* display: none; */
   
 }
@@ -720,17 +892,17 @@ body{
     min-height: 450px;
   }
 .filter .center p{
-  line-height: 1;
+  /* line-height: 1; */
 }
 
 .filter .center{
   /* margin-left: 40px; */
 }
-.filter .center .feature .para{
-  line-height: 1;
+.filter .center .feature .para2{
+  /* line-height: 1; */
 }
 .filter .center .feature p{
-  line-height: 1;
+  /* line-height: 1; */
 }
   #header-carousel .carousel-item img {
     position: absolute;
@@ -936,7 +1108,12 @@ body{
     padding-right: calc(((100% - 960px) / 2) + 0.75rem);
   }
   
-  
+  /* .filter .center .feature .para{
+    line-height: 1.2;
+  } */
+  .filter .center .features .feature p{
+    /* line-height: 9px; */
+  }
 }
 @media screen and  (max-width: 992px) {
   .top .top-content{
@@ -945,7 +1122,9 @@ body{
   .filter .filter-box{
     display: none;
   }
-
+  .filter .center p{
+    line-height: 5px;
+  }
 .filter .center .planrows img{
   width: 50px;
   height: 20px;
@@ -1075,6 +1254,7 @@ body{
     padding-right: calc(((100% - 1140px) / 2) + 0.75rem);
   }
   
+  
 
 
 
@@ -1084,15 +1264,8 @@ body{
   .filter .center p{
     line-height: 1.2;
   }
-  .filter .center{
-    /* margin-left: 40px; */
-  }
-  .filter .center .feature .para{
-    line-height: 1.2;
-  }
-  .filter .center .feature p{
-    line-height: 1.2;
-  }
+ 
+  
   .filter .select .drop-btn{
     
     height: 50px;
@@ -1100,10 +1273,23 @@ body{
     padding: 5px;
     
   }
+  .filter .center .feature p{
+    line-height: 1.2;
+  }
+  /* .filter .center p{
+    line-height: 3px;
+  } */
+  .filter .center .features .feature .para1, .para2, .para3{
+    /* line-height: 18px; */
+    /* line-height: 1px; */
+  }
   .filter .first-drop .inner-drop{
     width: 150px;
     padding: 5px;
   
+  }
+  .filter .center .features .feature p span{
+    /* line-height: 15px; */
   }
   .filter .first-drop{
     position: relative;
@@ -1135,8 +1321,22 @@ body{
     width: 100px;
     padding: 5px;
   }
-  .filter .center{
-    /* margin-left: 50px; */
+  .top p{
+    font-size: 1.2rem;
+  }
+  .top h5{
+    font-size: 1rem;
+  }
+  
+  .filter .center .feature .para1, .para2, .para3{
+    line-height: .5px;
+    /* line-height: 1px; */
+  }
+
+  
+  .filter .center .feature p{
+    font-size: 1.1rem;
+    line-height: 8px;
   }
   .filter .first-drop{
     max-width:  200px;

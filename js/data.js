@@ -113,45 +113,40 @@ document.addEventListener("DOMContentLoaded", function() {
         // boxContainer.style.display = "block"; // Show boxContaine
         return box4;
     }
-  
 
-    // function removeBox() {
-    //      const boxes = document.querySelectorAll(".box");
-        // // boxes.forEach(function(box) {
-        //     // if (box.textContent.includes()) {
-        //         box.remove();
-        //     // }
-        // });
-
-    //     // Hide boxContainer if it's empty
-    //     // if (boxContainer.childElementCount === 0) {
-    //     //     boxContainer.style.display = "none";
-    //     // }
-    // // }
       function addBoxToContainer(box) {
         
           boxContainer.appendChild(box);
           boxContainer.style.display = "flex";
+          count();
       }
   
       function addBoxToContainer(box1) {
         
         boxContainer.appendChild(box1);
         boxContainer.style.display = "flex";
+        count();
+
     }
     function addBoxToContainer(box2) {
         
         boxContainer.appendChild(box2);
         boxContainer.style.display = "flex";
+        count();
+
     }
     function addBoxToContainer(box3) {
         
         boxContainer.appendChild(box3);
         boxContainer.style.display = "flex";
+        count();
+
     }function addBoxToContainer(box4) {
         
         boxContainer.appendChild(box4);
         boxContainer.style.display = "flex";
+        count();
+
     }
       function removeBoxFromContainer(box) {
         // if (boxContainer.childElementCount === 0) {
@@ -268,6 +263,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
   });
 
+  function count(){
+    if(boxContainer.length == 3){
+      alert("Maximum 3 policy select");
+
+    }
+  }
   
 
 // Click function start here all...
